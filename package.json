@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "bootstrap": "^5.2.3",
+    "live-server": "^1.2.2",
     "sass": "^1.57.1"
   }
 }

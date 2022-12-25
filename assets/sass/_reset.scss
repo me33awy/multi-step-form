@@ -1,0 +1,22 @@
+@use "./functions";
+@use "./variables";
+@font-face {
+  font-family: "ubunut";
+  src: url("../fonts/Ubuntu-Bold.ttf") format("ttf"),
+    url("../fonts/Ubuntu-Medium.ttf") format("ttf"),
+    url("../fonts/Ubuntu-Regular.ttf") format("ttf");
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-size: 100%;
+  font-size: map-get(variables.$fonts, size);
+}

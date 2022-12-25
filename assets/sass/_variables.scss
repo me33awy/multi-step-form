@@ -1,0 +1,29 @@
+@use "./functions";
+$colors: (
+  "marine_blue": hsl(213, 96%, 18%),
+  "Purplish_blue": hsl(243, 100%, 62%),
+  "Pastel_blue:": hsl(228, 100%, 84%),
+  "Light_blue": hsl(206, 94%, 87%),
+  "Strawberry_red": hsl(354, 84%, 57%),
+  "Cool_gray": hsl(231, 11%, 63%),
+  "Light_gray": hsl(229, 24%, 87%),
+  "Magnolia": hsl(217, 100%, 97%),
+  "Alabaster": hsl(231, 100%, 99%),
+  "White": hsl(0, 0%, 100%),
+);
+
+$fonts: (
+  "size": functions.rem(16),
+  "f-400": functions.rem(400),
+  "f-500": functions.rem(500),
+  "f-700": functions.rem(700),
+);
+
+$breakpoints: (
+  xs: 0,
+  sm: functions.rem(576),
+  md: functions.rem(768),
+  lg: functions.rem(992),
+  xl: functions.rem(1200),
+  xxl: functions.rem(1400),
+);
