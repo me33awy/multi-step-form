@@ -1,0 +1,9 @@
+@use "./functions";
+@use "./variables";
+#content {
+  padding: functions.rem(16);
+  background-color: map-get(variables.$colors, light);
+  border-radius: functions.rem(15);
+  box-shadow: 0 functions.rem(5) functions.rem(10) functions.rem(5)
+    map-get(variables.$colors, Light_gray);
+}

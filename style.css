@@ -14,6 +14,31 @@ body,
 html {
   font-size: 100%;
   font-size: 1rem;
+  background: hsl(217deg, 100%, 97%);
+}
+
+#content {
+  padding: 1rem;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 0.9375rem;
+  box-shadow: 0 0.3125rem 0.625rem 0.3125rem hsl(229deg, 24%, 87%);
+}
+
+.alt-container .slidebar {
+  background-image: url(./assets/images/bg-sidebar-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.9375rem;
+}
+.alt-container .slidebar .step {
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+}
+.alt-container .slidebar .step button {
+  width: 2.125rem;
+  height: 2.125rem;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

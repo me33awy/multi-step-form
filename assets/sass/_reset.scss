@@ -19,4 +19,5 @@ body,
 html {
   font-size: 100%;
   font-size: map-get(variables.$fonts, size);
+  background: map-get(variables.$colors, Magnolia);
 }
