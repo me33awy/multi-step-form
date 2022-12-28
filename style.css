@@ -1,6 +1,8 @@
 @font-face {
   font-family: "ubunut";
-  src: url("../fonts/Ubuntu-Bold.ttf") format("ttf"), url("../fonts/Ubuntu-Medium.ttf") format("ttf"), url("../fonts/Ubuntu-Regular.ttf") format("ttf");
+  src: url("../fonts/Ubuntu-Bold.ttf") format("ttf"),
+    url("../fonts/Ubuntu-Medium.ttf") format("ttf"),
+    url("../fonts/Ubuntu-Regular.ttf") format("ttf");
 }
 *,
 *::before,
